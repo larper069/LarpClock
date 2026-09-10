@@ -1,0 +1,17 @@
+{
+    "KPlugin": {
+        "Id": "com.slayerrr.cyberclock",
+        "Name": "CyberClock",
+        "Description": "Minimal Plasma 6 clock with selectable fonts, presets, matrix rain and glitch effects",
+        "Icon": "clock",
+        "Authors": [
+            {
+                "Name": "Slayerrr"
+            }
+        ],
+        "Version": "0.3.5",
+        "License": "GPL-3.0"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

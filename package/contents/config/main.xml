@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="use24Hour" type="Bool"><default>true</default></entry>
+
+        <entry name="fontFamily" type="String"><default>Monospace</default></entry>
+        <entry name="fontScale" type="Int"><default>100</default></entry>
+        <entry name="fontWeight" type="Int"><default>700</default></entry>
+        <entry name="letterSpacing" type="Int"><default>-1</default></entry>
+
+        <entry name="effectPreset" type="String"><default>Cyberpunk</default></entry>
+        <entry name="enableMatrix" type="Bool"><default>true</default></entry>
+        <entry name="enableChroma" type="Bool"><default>true</default></entry>
+        <entry name="enableSlices" type="Bool"><default>true</default></entry>
+        <entry name="enableBurst" type="Bool"><default>true</default></entry>
+        <entry name="enableScanlines" type="Bool"><default>true</default></entry>
+        <entry name="enablePulse" type="Bool"><default>true</default></entry>
+        <entry name="enableGhost" type="Bool"><default>false</default></entry>
+
+        <entry name="matrixSpeedMin" type="Int"><default>900</default></entry>
+        <entry name="matrixSpeedMax" type="Int"><default>2200</default></entry>
+        <entry name="matrixColumns" type="Int"><default>28</default></entry>
+        <entry name="matrixOpacity" type="Int"><default>95</default></entry>
+
+        <entry name="glitchIntervalMin" type="Int"><default>2200</default></entry>
+        <entry name="glitchIntervalMax" type="Int"><default>6500</default></entry>
+        <entry name="glitchDuration" type="Int"><default>170</default></entry>
+        <entry name="chromaDuration" type="Int"><default>140</default></entry>
+        <entry name="glitchStrength" type="Int"><default>9</default></entry>
+
+        <entry name="burstIntervalMin" type="Int"><default>9000</default></entry>
+        <entry name="burstIntervalMax" type="Int"><default>18000</default></entry>
+        <entry name="burstDuration" type="Int"><default>430</default></entry>
+
+        <entry name="scanlineSpeed" type="Int"><default>1400</default></entry>
+        <entry name="scanlineOpacity" type="Int"><default>34</default></entry>
+        <entry name="pulseDuration" type="Int"><default>1800</default></entry>
+        <entry name="pulseStrength" type="Int"><default>35</default></entry>
+        <entry name="ghostOpacity" type="Int"><default>24</default></entry>
+        <entry name="ghostDistance" type="Int"><default>7</default></entry>
+
+        <entry name="baseColor" type="Color"><default>#d7fff8</default></entry>
+        <entry name="matrixColor" type="Color"><default>#67ffe4</default></entry>
+        <entry name="cyanColor" type="Color"><default>#00f6ff</default></entry>
+        <entry name="magentaColor" type="Color"><default>#ff2bd6</default></entry>
+    </group>
+</kcfg>
